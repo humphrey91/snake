@@ -8,7 +8,7 @@ function setup() {
   canvas = createCanvas(600,600);
   canvas.parent('snake');
   s = new Snake();
-  frameRate(15);
+  frameRate(12);
   picklocation();
 }
 

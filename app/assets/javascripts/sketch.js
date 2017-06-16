@@ -9,7 +9,7 @@ function setup() {
   canvas.parent('snake');
   s = new Snake();
   frameRate(12);
-  picklocation();
+  
 }
 
 function picklocation() {
